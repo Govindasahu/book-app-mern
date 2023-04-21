@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+.navbar {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  text-decoration: none;
+  color: unset;
+}
+.logo h2:hover {
+  transform: scale(1.05);
+}
+
+.logo h2 {
+  font-size: 1.7rem;
+  transition: 0.5s ease;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navItems button {
+  padding: 0.6rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  width: 7rem;
+  color: aliceblue;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+.navItems button:hover {
+  transform: scale(1.1);
+}
+.btn1 {
+  background-color: rgb(33, 185, 59);
+}
+.btn2 {
+  background-color: crimson;
+}
+.spanlogo {
+  font-weight: bold;
+  font-size: 23px;
+}
+.userExist p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.logoutBtn {
+  background-color: crimson;
+  color: aliceblue;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2rem;
+}

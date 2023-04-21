@@ -1,0 +1,22 @@
+.homeContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.homeTitle {
+  background-image: linear-gradient(
+    to right top,
+    #09203f,
+    #0e274a,
+    #132f55,
+    #183761,
+    #1d3f6d
+  );
+  text-align: center;
+  width: 100%;
+  color: aliceblue;
+  padding: 0.5rem 0;
+}
